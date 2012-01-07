@@ -219,7 +219,7 @@ function buildAce(aceProject, options) {
         compat: true,
         modes: [
             "css", "html", "javascript", "php", "coldfusion", "python", "lua", "xml", "ruby", "java", "c_cpp",
-            "coffee", "perl", "csharp", "haxe", "svg", "clojure", "scss", "json", "groovy",
+            "coffee", "perl", "csharp", "haxe", "svg", "clojure", "scss", "json", "groovy", "glsl",
             "ocaml", "scala", "textile", "scad", "markdown", "latex", "powershell", "sql"
         ],
         themes: [

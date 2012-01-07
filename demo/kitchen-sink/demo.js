@@ -103,6 +103,7 @@ var modes = [
     new Mode("coldfusion", "ColdFusion", require("ace/mode/coldfusion").Mode, ["cfm"]),
     new Mode("csharp", "C#", require("ace/mode/csharp").Mode, ["cs"]),
     new Mode("css", "CSS", require("ace/mode/css").Mode, ["css"]),
+    new Mode("glsl", "GLSL", require("ace/mode/glsl").Mode, ["frag", "vert", "glsl"]),
     new Mode("groovy", "Groovy", require("ace/mode/groovy").Mode, ["groovy"]),
     new Mode("haxe", "haXe", require("ace/mode/haxe").Mode, ["hx"]),
     new Mode("html", "HTML", require("ace/mode/html").Mode, ["html", "htm"]),
@@ -226,6 +227,10 @@ var docs = [
     new Doc(
         "c_cpp", "C/C++",
         require("ace/requirejs/text!./docs/cpp.cpp")
+    ),
+    new Doc(
+        "glsl", "GLSL",
+        require("ace/requirejs/text!./docs/glsl.frag")
     ),
     new Doc(
         "haxe", "haXe",
